@@ -1,0 +1,46 @@
+@media screen and (min-width: 533px) and (max-width: 999px) {
+  .container-2 {
+   margin-bottom: 60px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+  #input {
+    font-size: 2em;
+  }
+  #btn {
+    width: 45%;
+    margin-top: 1.9%;
+  }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1299px) {
+  .container-2 {
+    margin-bottom: 59px;
+  }
+
+  #input {
+    font-size: 2em;
+  }
+  #btn {
+    width: 40%;
+    margin-top: 1.2%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container-2 {
+    margin-bottom: 60px;
+  }
+  #input {
+    width: 100%;
+    font-size: 2.2em
+  }
+  #btn {
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 1%;
+  }
+}

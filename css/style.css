@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: lightgray;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container-2 {
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+h1 {
+  max-width: 100%;
+  padding: 5px;
+}
+
+#target {
+  width: 50%;
+  float: left;
+  margin-left: 10px;
+}
+
+#btn {
+  padding: 5px;
+  border-radius: 10px;
+  float: right;
+  width: 20%;
+
+}
+
+#btn:focus {
+  outline: 0;
+}
+
+#input:focus {
+  outline: 0;
+}
+
+#input {
+  font-size: 1em;
+  width: 100%;
+}
+
+#search-list {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+  padding: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #b3b3b3;
+  width: 100%;
+  font-family: 'Times';
+  border-radius: 4px;
+}
+
+li:hover {
+  color:  #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Garamond';
+  font-size: 17px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 532px){
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+  }
+
+  .container-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0 auto;
+
+  }
+  #btn {
+    width: 40%;
+    margin-left:  30%;
+    margin-right: 30%;
+    padding: 0;
+  }
+
+  #target {
+    padding: 3px;
+    width: 40%;
+    margin-left:  30%;
+    margin-right: 30%;
+  }
+
+  #input {
+    font-size: 1.5em;
+  }
+  #search-list {
+    margin-top: 70px;
+  }
+}
